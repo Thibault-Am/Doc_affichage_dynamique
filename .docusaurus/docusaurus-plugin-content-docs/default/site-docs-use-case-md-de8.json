@@ -1,0 +1,26 @@
+{
+  "unversionedId": "use_case",
+  "id": "use_case",
+  "title": "Documentation : Use Case",
+  "description": "Use case user :",
+  "source": "@site/docs/use_case.md",
+  "sourceDirName": ".",
+  "slug": "/use_case",
+  "permalink": "/docs/use_case",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/use_case.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Documentation : Fonctionnalitées",
+    "permalink": "/docs/fonctionnalitees"
+  },
+  "next": {
+    "title": "Documentation : annexes",
+    "permalink": "/docs/annexes"
+  }
+}

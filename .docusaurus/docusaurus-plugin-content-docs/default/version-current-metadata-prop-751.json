@@ -1,0 +1,63 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Documentation : Fonctionnalitées",
+        "href": "/docs/fonctionnalitees",
+        "docId": "fonctionnalitees"
+      },
+      {
+        "type": "link",
+        "label": "Documentation : Use Case",
+        "href": "/docs/use_case",
+        "docId": "use_case"
+      },
+      {
+        "type": "link",
+        "label": "Documentation : annexes",
+        "href": "/docs/annexes",
+        "docId": "annexes"
+      },
+      {
+        "type": "link",
+        "label": "Schema de l'application",
+        "href": "/docs/schema_architecture",
+        "docId": "schema_architecture"
+      }
+    ]
+  },
+  "docs": {
+    "annexes": {
+      "id": "annexes",
+      "title": "Documentation : annexes",
+      "description": "Dispositif d’affichage : Un dispositif d’affichage et un hardware permettant d’afficher des informations (écran de pc, télévision, tablette, …)",
+      "sidebar": "tutorialSidebar"
+    },
+    "fonctionnalitees": {
+      "id": "fonctionnalitees",
+      "title": "Documentation : Fonctionnalitées",
+      "description": "Création de compte :",
+      "sidebar": "tutorialSidebar"
+    },
+    "schema_architecture": {
+      "id": "schema_architecture",
+      "title": "Schema de l'application",
+      "description": "schema.png",
+      "sidebar": "tutorialSidebar"
+    },
+    "use_case": {
+      "id": "use_case",
+      "title": "Documentation : Use Case",
+      "description": "Use case user :",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

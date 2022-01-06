@@ -1,0 +1,38 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "fonctionnalitees",
+          "docs": [
+            {
+              "id": "annexes",
+              "path": "/docs/annexes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "fonctionnalitees",
+              "path": "/docs/fonctionnalitees",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "schema_architecture",
+              "path": "/docs/schema_architecture",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "use_case",
+              "path": "/docs/use_case",
+              "sidebar": "tutorialSidebar"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
